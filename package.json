@@ -1,0 +1,21 @@
+{
+  "name": "learn_node_js",
+  "version": "1.0.0",
+  "description": "hoc node ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./src/server.js"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Thang",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "part": "^0.1.1"
+  }
+}
