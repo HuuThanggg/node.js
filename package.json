@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node ./src/server.js"
+    "dev": "nodemon ./src/server.js"
   },
   "keywords": [
     "nodejs"
@@ -14,8 +14,11 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "16.0.3",
-    "ejs": "^3.1.10",
-    "express": "^4.19.2",
-    "part": "^0.1.1"
+    "ejs": "3.1.10",
+    "express": "4.19.2",
+    "part": "0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.0"
   }
 }
