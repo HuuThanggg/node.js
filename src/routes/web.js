@@ -1,15 +1,14 @@
 const express = require('express');
 const router = express.Router();
+const { getHomepage, getABC , getUploadfile } = require('../controllers/homeController');
 //khai báo route
-router.get('/',(req,res) => {
-    res.send('helooooooooooo và thêm mới codeeee')
-})
-router.get('/abc',(req,res) => {
-    res.send('check abcccccc')
-})
-router.get('/uploadfile',(req,res) => {
-    //res.send('<h1>nơi úp load file</h1>')
-    res.render('sample.ejs')
-})
+
+
+router.get('/', getHomepage);
+  
+router.get('/abc', getABC);
+
+router.get('/uploadfile',getUploadfile)
 
 module.exports = router;
+
