@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const { getHomepage, getABC , getUploadfile } = require('../controllers/homeController');
+const mysql = require('mysql');
 //khai báo route
 
 
